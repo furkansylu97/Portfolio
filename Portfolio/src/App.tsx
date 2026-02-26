@@ -1,11 +1,11 @@
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router/AppRouter";
 import "./App.css";
 
 function App() {
   return (
-  <>
-    Portfolio Project
-  </>
-  )
+    <RouterProvider router={router} />
+  );
 }
 
 export default App;
