@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import { Container } from "../../container/Container";
+import { useState } from "react";
+import MobileMenu from "../../navbar/sections/MobileMenu"
+import { FiMenu, FiX } from "react-icons/fi";
 import HeaderInfoItem from "../components/HeaderInfoItem";
 import HeaderLogo from "../../../../assets/icons/headerLogo.svg";
 import Mail from "../../../../assets/icons/mail.svg";
@@ -7,6 +10,7 @@ import Phone from "../../../../assets/icons/phone.svg";
 import Linkedin from "../../../../assets/icons/linkedin.svg";
 
 export const Header = () => {
+  const [mobileOpen, setMobileOpen] = useState(false);
   return (
     <>
       <header>
@@ -18,7 +22,7 @@ export const Header = () => {
                   <img
                     src={HeaderLogo}
                     alt="Furkan Soylu"
-                    className="w-16 h-16 lg:w-68 lg:h-20"
+                    className="w-40 h-12 lg:w-68 lg:h-20"
                   />
                 </Link>
               </div>
@@ -53,6 +57,31 @@ export const Header = () => {
                 </a>
               </HeaderInfoItem>
             </div>
+            <button
+              onClick={() => setMobileOpen((prev) => !prev)}
+              aria-label="Mobil Menü"
+              aria-expanded={mobileOpen}
+              className="
+              lg:hidden
+              flex items-center justify-center
+              w-11 h-11
+              text-white
+              rounded-md
+              hover:bg-white/10
+              transition-colors
+              z-50
+            "
+            >
+              {mobileOpen ? (
+                <FiX className="text-2xl" />
+              ) : (
+                <FiMenu className="text-2xl" />
+              )}
+            </button>
+            <MobileMenu
+              open={mobileOpen}
+              onClose={() => setMobileOpen(false)}
+            />
           </Container>
         </div>
       </header>
