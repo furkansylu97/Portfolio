@@ -1,9 +1,9 @@
+import { IntroSection } from "../../sections/introduction/IntroSection";
+
 const HomePage = () => {
   return (
     <>
-      <div className="text-3xl font-bold underline">
-        Furkan Soylu Porfolio
-      </div>
+      <IntroSection />
     </>
   );
 };
