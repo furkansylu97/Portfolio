@@ -1,9 +1,13 @@
+import AboutSection from "../../sections/about/AboutSection";
 import { IntroSection } from "../../sections/introduction/IntroSection";
 
 const HomePage = () => {
   return (
     <>
-      <IntroSection />
+      <div className="bg-[#789a9f]">
+        <IntroSection />
+        <AboutSection />
+      </div>
     </>
   );
 };

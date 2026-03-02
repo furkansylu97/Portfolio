@@ -25,12 +25,17 @@ export const IntroContent: FC<IntroContentProps> = ({
         {careerText}
       </h3>
 
-      <h2 className="text-green-500 text-base md:text-xl lg:text-2xl">"{slogan}"</h2>
+      <h2 className="text-green-500 text-base md:text-xl lg:text-2xl">
+        "{slogan}"
+      </h2>
 
-      <p className="text-base md:text-lg lg:text-xl my-2 md:my-4 lg:my-5">{description}</p>
+      <p className="text-base md:text-lg lg:text-xl my-2 md:my-4 lg:my-5">
+        {description}
+      </p>
 
       <button
-        className="border lg:border-2 border-cyan-950 bg-cyan-950/80 text-white text-base lg:text-xl font-normal lg:font-medium   max-lg:my-2 lg:mt-8 px-5 md:px-6 lg:px-8 py-2 md:py-3 lg:py-5 rounded"
+        type="button"
+        className="border lg:border-2 border-cyan-950 bg-cyan-950/80 text-white text-base lg:text-xl font-normal lg:font-medium   max-lg:my-2 lg:mt-8 px-5 md:px-6 lg:px-8 py-2 md:py-3 lg:py-5 rounded cursor-pointer hover:bg-cyan-800/50"
         onClick={onButtonClick}
       >
         Keşife Başlayın
