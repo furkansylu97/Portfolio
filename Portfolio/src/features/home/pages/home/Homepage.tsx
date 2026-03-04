@@ -1,4 +1,5 @@
 import AboutSection from "../../sections/about/AboutSection";
+import ContactSection from "../../sections/contact/ContactSection";
 import EducationSection from "../../sections/education/EducationSection";
 import ExperienceSection from "../../sections/experience/ExperienceSection";
 import { IntroSection } from "../../sections/introduction/IntroSection";
@@ -13,6 +14,7 @@ const HomePage = () => {
         <ExperienceSection />
         <EducationSection />
         <ProjectsSection />
+        <ContactSection />
       </div>
     </>
   );
