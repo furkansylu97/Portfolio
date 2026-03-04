@@ -6,7 +6,7 @@ import { VscWorkspaceTrusted } from "react-icons/vsc";
 const ContactSection = () => {
   return (
     <Container>
-      <section className="w-full">
+      <section className="w-full max-lg:mb-6 lg:mb-10">
         <div className="flex flex-col items-center justify-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-950 my-2 md:my-4 lg:my-6">
             Birlikte Çalışalım
