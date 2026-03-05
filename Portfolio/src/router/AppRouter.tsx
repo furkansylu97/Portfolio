@@ -3,6 +3,7 @@ import Mainlayout from "../layouts/mainlayout/MainLayout";
 import HomePage from "../features/home/pages/home/Homepage";
 import AboutUsPage from "../features/home/pages/about/Aboutpage";
 import ProjectsPage from "../features/home/pages/projects/Projectspage";
+import ExperiencePage from "../features/home/pages/experience/ExperiencePage";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,15 @@ export const router = createBrowserRouter([
           {
             index: true,
             element: <ProjectsPage/>,
+          },
+        ],
+      },
+      {
+        path: "experiences",
+        children: [
+          {
+            index: true,
+            element: <ExperiencePage />,
           },
         ],
       },

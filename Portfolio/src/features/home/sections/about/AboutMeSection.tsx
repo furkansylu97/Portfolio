@@ -2,6 +2,7 @@ import bgAbout from "../../../../assets/images/background/bgAbout.jpg";
 import { Container } from "../../../../shared/components/container/Container";
 import TechStack from "../../components/about/TechStack";
 import icons from "../../data/about/iconsData";
+import EducationSection from "../education/EducationSection";
 
 const AboutMeSection: React.FC = () => {
   return (
@@ -53,8 +54,11 @@ const AboutMeSection: React.FC = () => {
         </div>
       </div>
       <Container>
-        <div className="py-2 md:py-5 lg:py-8">
-          <TechStack icons={icons} />
+        <div>
+          <EducationSection />
+          <div className="py-2 md:py-5 lg:py-8">
+            <TechStack icons={icons} />
+          </div>
         </div>
       </Container>
     </section>

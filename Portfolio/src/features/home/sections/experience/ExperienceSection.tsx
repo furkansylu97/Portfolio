@@ -12,9 +12,11 @@ const ExperienceSection = () => {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 lg:gap-6">
-            {experienceCards.map((card, index) => (
-              <ExperienceCard key={card.id} card={card} index={index} />
-            ))}
+            {experienceCards
+              .filter((card) => card.isFeatured)
+              .map((card, index) => (
+                <ExperienceCard key={card.id} card={card} index={index} />
+              ))}
           </div>
         </div>
       </section>

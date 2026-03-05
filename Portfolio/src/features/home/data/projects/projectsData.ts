@@ -32,11 +32,11 @@ export const projectCards: Project[] = [
     id: 1,
     title: "Özel Fidanlar Rehabilitasyon Merkezi",
     description: `React + TypeScript ile tip güvenli, ölçeklenebilir ve component-based frontend mimarisi geliştirdim.
-Tailwind CSS ile utility-first, sürdürülebilir ve tutarlı bir tasarım sistemi oluşturdum.
-Headless CMS entegrasyonu yaparak dinamik içerik yönetimi ve API tabanlı veri akışı kurguladım.
-Mobile-first responsive yapı ve semantic HTML ile SEO uyumlu teknik altyapı oluşturup performans optimizasyonları gerçekleştirdim.
-Lighthouse odaklı hız iyileştirmeleri (bundle optimizasyonu, lazy loading, asset minimizasyonu) uyguladım.
-Production deployment sürecini yönettim; sunucu yapılandırması, build optimizasyonu ve yayına alma süreçlerini uçtan uca gerçekleştirdim`,
+    Tailwind CSS ile utility-first, sürdürülebilir ve tutarlı bir tasarım sistemi oluşturdum.
+    Headless CMS entegrasyonu yaparak dinamik içerik yönetimi ve API tabanlı veri akışı kurguladım.
+    Mobile-first responsive yapı ve semantic HTML ile SEO uyumlu teknik altyapı oluşturup performans optimizasyonları gerçekleştirdim.
+    Lighthouse odaklı hız iyileştirmeleri (bundle optimizasyonu, lazy loading, asset minimizasyonu) uyguladım.
+    Production deployment sürecini yönettim; sunucu yapılandırması, build optimizasyonu ve yayına alma süreçlerini uçtan uca gerçekleştirdim`,
     image: projectImage1,
     technologies: [
       { name: "React", icon: reactIcon },
