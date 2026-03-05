@@ -9,13 +9,13 @@ const ExperienceDetailSection: React.FC = () => {
       <div className="relative w-full overflow-hidden">
         <img
           src={bgExperience}
-          alt="about background"
+          alt="experience background"
           className="h-[40vh] lg:h-[60vh] w-full object-cover"
         />
         <div className="absolute inset-0 bg-black/20" />
       </div>
       <Container>
-        <section>
+        <section className="flex flex-col items-center justify-center w-full">
           <div className="my-6 md:my-8 lg:my-10">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-950 my-4 text-center">
               Profesyonel Deneyimler
@@ -25,7 +25,7 @@ const ExperienceDetailSection: React.FC = () => {
               listelenmiştir.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 lg:max-w-5xl gap-6">
               {experienceCards.map((card, index) => (
                 <ExperienceDetailCard key={card.id} card={card} index={index} />
               ))}

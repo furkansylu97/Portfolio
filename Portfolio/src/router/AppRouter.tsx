@@ -4,6 +4,7 @@ import HomePage from "../features/home/pages/home/Homepage";
 import AboutUsPage from "../features/home/pages/about/Aboutpage";
 import ProjectsPage from "../features/home/pages/projects/Projectspage";
 import ExperiencePage from "../features/home/pages/experience/ExperiencePage";
+import CertificatesPage from "../features/home/pages/certificates/CertificatesPage";
 
 export const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ export const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <ProjectsPage/>,
+            element: <ProjectsPage />,
           },
         ],
       },
@@ -38,6 +39,15 @@ export const router = createBrowserRouter([
           {
             index: true,
             element: <ExperiencePage />,
+          },
+        ],
+      },
+      {
+        path: "certificates",
+        children: [
+          {
+            index: true,
+            element: <CertificatesPage />,
           },
         ],
       },
