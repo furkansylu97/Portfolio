@@ -53,8 +53,7 @@ Production deployment sürecini yönettim; sunucu yapılandırması, build optim
     description: `React kullanarak ölçeklenebilir ve tamamen bileşen tabanlı bir frontend mimarisi geliştirdim.
     Modern Tailwind Css ve Typescript ile responsive, performans odaklı ve kullanıcı merkezli bir arayüz tasarladım.
     Proje klasör ve dosya yapısını profesyonel yazılım geliştirme standartlarına uygun şekilde kurgulayarak sürdürülebilir ve kolay bakım yapılabilir bir yapı oluşturdum.
-    Build ve deployment süreçlerini uçtan uca yöneterek uygulamayı production ortamında Vercel üzerinden yayına aldım.
-`,
+    Build ve deployment süreçlerini uçtan uca yöneterek uygulamayı production ortamında Vercel üzerinden yayına aldım.`,
     image: projectImage2,
     technologies: [
       { name: "React", icon: reactIcon },
@@ -70,8 +69,7 @@ Production deployment sürecini yönettim; sunucu yapılandırması, build optim
     title: "TransitFlow Website",
     description: `Web teknolojilerinden yararlanarak, çeşitli cihazlarda sorunsuz bir kullanıcı deneyimi sağlayan modern ve duyarlı bir düzen oluşturdum.
     Web sitesinin etkileşimini geliştirmek ve öne çıkan içeriği etkili bir şekilde sergilemek için Swiper kaydırıcı kitaplığını uyguladım.
-    Mobil öncelikli bir yaklaşımla tasarlanan web sitesi, farklı ekran boyutlarına ve yönelimlerine sorunsuz bir şekilde uyum sağladım
-`,
+    Mobil öncelikli bir yaklaşımla tasarlanan web sitesi, farklı ekran boyutlarına ve yönelimlerine sorunsuz bir şekilde uyum sağladım`,
     image: projectImage3,
     technologies: [
       { name: "Html-5", icon: html5Icon },
@@ -90,8 +88,7 @@ Production deployment sürecini yönettim; sunucu yapılandırması, build optim
     Routing & Navigation: React Router ile dinamik ve SPA (Single Page Application) mimarisine uygun istemci taraflı yönlendirme kurgulandı.
     UI / Styling: Duyarlı (responsive) ve modüler tasarım yapısı, SCSS (Sass) ön işlemcisi kullanılarak geliştirildi. BEM metodolojisi ile sürdürülebilir CSS mimarisi sağlandı.
     Component Architecture: Modern React prensiplerine uygun olarak Functional Components ve React Hooks (useState, useEffect, useDispatch, useSelector) kullanıldı.
-    Performance Optimization: Bileşen bazlı yeniden render kontrolü ve temiz lifecycle yönetimi ile performans iyileştirmeleri uygulandı.
-`,
+    Performance Optimization: Bileşen bazlı yeniden render kontrolü ve temiz lifecycle yönetimi ile performans iyileştirmeleri uygulandı.`,
     image: projectImage4,
     technologies: [
       { name: "React", icon: reactIcon },

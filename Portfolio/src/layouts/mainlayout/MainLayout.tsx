@@ -3,11 +3,13 @@ import { Header } from "../../shared/components/header/sections/Header";
 import Navbar from "../../shared/components/navbar/sections/Navbar";
 import StickyNavbar from "../../shared/components/navbar/sections/StickyNavbar";
 import Footer from "../../shared/components/footer/Footer";
+import ScrollToHash from "../../shared/components/scroll/ScrollToHash";
 
 
 const Mainlayout = () => {
     return (
         <>
+        <ScrollToHash />
         <Header />
         <Navbar />
         <StickyNavbar />

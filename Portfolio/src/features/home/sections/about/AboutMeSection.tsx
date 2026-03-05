@@ -9,7 +9,7 @@ const AboutMeSection: React.FC = () => {
       <div className="relative w-full overflow-hidden">
         <img
           src={bgAbout}
-          alt="Özel Fidanlar Özel Eğitim ve Rehabilitasyon Merkezi"
+          alt="aboutbackground"
           className="h-[40vh] lg:h-[60vh] w-full object-cover"
         />
         <div className="absolute inset-0 bg-black/20" />
