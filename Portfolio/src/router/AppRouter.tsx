@@ -5,6 +5,7 @@ import AboutUsPage from "../features/home/pages/about/Aboutpage";
 import ProjectsPage from "../features/home/pages/projects/Projectspage";
 import ExperiencePage from "../features/home/pages/experience/ExperiencePage";
 import CertificatesPage from "../features/home/pages/certificates/CertificatesPage";
+import ContactPage from "../features/home/pages/contatct/Contactpage";
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +49,15 @@ export const router = createBrowserRouter([
           {
             index: true,
             element: <CertificatesPage />,
+          },
+        ],
+      },
+      {
+        path: "contact",
+        children: [
+          {
+            index: true,
+            element: <ContactPage />,
           },
         ],
       },
