@@ -78,7 +78,7 @@ export const projectCards: Project[] = [
       { name: "Scss", icon: scssIcon },
       { name: "Figma", icon: figmaIcon },
     ],
-    liveUrl: "/",
+    liveUrl: "https://transitflow-website-fs.vercel.app",
   },
   {
     id: 4,
@@ -96,6 +96,6 @@ export const projectCards: Project[] = [
       { name: "Scss", icon: scssIcon },
       { name: "Figma", icon: figmaIcon },
     ],
-    liveUrl: "/",
+    liveUrl: "https://fleshmovie-website-fs.vercel.app",
   },
 ];
