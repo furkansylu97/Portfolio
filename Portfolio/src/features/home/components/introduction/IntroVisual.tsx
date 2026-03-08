@@ -7,7 +7,7 @@ export const IntroVisual: FC = () => {
     <div className="flex lg:relative justify-center items-center max-lg:border-2 max-lg:rounded-4xl max-lg:border-cyan-950 max-lg:bg-cyan-800/50">
       <div className="hidden lg:block overflow-hidden">
         <DotLottieReact
-          src="../../../../../public/introductionAnimation.json"
+          src="https://lottie.host/cabdeee3-446f-45c7-8b94-fd24423a2df6/TCT2VSJmUO.lottie"
           loop
           autoplay
           className="h-116"
