@@ -23,7 +23,7 @@ export const educationCards: EducationCard[] = [
     id: 2,
     department: "İş Sağlığı ve Güvenliği",
     language: "(Türkçe)",
-    school: "Atatrük Üniversitesi",
+    school: "Atatürk Üniversitesi",
     location: "Erzurum/Türkiye",
     icon: educationIcon2,
   },
